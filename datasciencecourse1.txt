@@ -1,6 +1,11 @@
 This github repo is created for Data Science course 1 offered by John Hopkins University through Coursera.
 Adding this new line and cheking with "git push" to understand if the changes are getting pushed.
 
+
+git documentation: http://git-scm.com/doc
+git help: https://help.github.com/
+Google stack overflow for GitHub
+
 ###
 git help git
 git help <command>
