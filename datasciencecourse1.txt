@@ -1,22 +1,22 @@
-### Git Intro
+## Git Intro
 
 This github repo is created for Data Science course 1 offered by John Hopkins University through Coursera.
 Adding this new line and cheking with "git push" to understand if the changes are getting pushed.
 
 
-##git documentation: http://git-scm.com/doc
-##git help: https://help.github.com/
-##Google stack overflow for GitHub
+###git documentation: http://git-scm.com/doc
+###git help: https://help.github.com/
+###Google stack overflow for GitHub
 
 ## Git help command
 git help git
 git help <command>
 
-### Git Global parameter
+## Git Global parameter
 git config --global user.name "your name here"
 git config --global user.email "your email address here"
 
-## Git global config
+### Git global config
 git config --list
 
 ##Example:
@@ -47,12 +47,12 @@ core.hidedotfiles=dotGitOnly
 remote.origin.url=https://github.com/crypthexon/datasciencecourse1.git
 remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
 
-### Git and GitHub
+## Git and GitHub
 You do not need GitHub to use git
 Git= Local on the computer
 GitHub= Remote on the web
 
-### Example steps to create git repo and push to remote repo
+## Example steps to create git repo and push to remote repo
 mkdir ~/test-repo
 cd ~/test-repo
 git init
@@ -75,16 +75,17 @@ git add . "adds all files"
 git add -u "updates tracking for files that changes names or were deleted"
 git add -A does both of the previous
 
-## Adds the files in the local repository and stages them for commit. To unstage a file, use 'git reset HEAD YOUR-FILE'.
+### Adds the files in the local repository and stages them for commit. To unstage a file, use 'git reset HEAD YOUR-FILE'.
 Commit the files that you've staged in your local repository.
 
 git commit -m "First commit"
 
-## Commits the tracked changes and prepares them to be pushed to a remote repository. To remove this commit and modify the file, use 'git reset --soft HEAD~1' and commit and add the file again.
+### Commits the tracked changes and prepares them to be pushed to a remote repository. To remove this commit and modify the file, use 'git reset --soft HEAD~1' and commit and add the file again.
 Push the changes in your local repository to GitHub.
 
 git push origin master
-## Pushes the changes in your local repository up to the remote repository you specified as the origin
+
+### Pushes the changes in your local repository up to the remote repository you specified as the origin
 
 or, use the followings:
 
