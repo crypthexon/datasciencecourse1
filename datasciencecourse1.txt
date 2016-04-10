@@ -105,8 +105,28 @@ where origin is the name of your remote repo.
 
 install.packages("ggplot2", dependencies = c("Depends", "Imports", "Suggests")) 
 
-###To check all the function which are part of ggplot package:
+###To find packages
+find.package("devtools")
+###To install devtools
+install.package("devtools")
+
+
+### Verify RTools installation
+
+library(devtools)
+find_rtools()
+
+Example:
+> library("devtools")
+> find_rtools()
+[1] TRUE
+
+
+
+
+###To check or load all the function which are part of ggplot package:
 
 library(ggplot2)
 search()
 
+###
