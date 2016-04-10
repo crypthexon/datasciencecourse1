@@ -2,6 +2,71 @@ This github repo is created for Data Science course 1 offered by John Hopkins Un
 Adding this new line and cheking with "git push" to understand if the changes are getting pushed.
 
 ###
+git help git
+git help <command>
+
+###
+git config --global user.name "your name here"
+git config --global user.email "your email address here"
+
+###
+git config --list
+
+Example:
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+diff.astextplain.textconv=astextplain
+rebase.autosquash=true
+credential.helper=manager
+user.name=crypthexon
+user.email=crypthexon@gmail.com
+filter.lfs.clean=git-lfs clean %f
+filter.lfs.smudge=git-lfs smudge %f
+filter.lfs.required=true
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+core.hidedotfiles=dotGitOnly
+remote.origin.url=https://github.com/crypthexon/datasciencecourse1.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+###
+You do not need GitHub to use git
+Git= Local on the computer
+GitHub= Remote on the web
+
+###
+mkdir ~/test-repo
+cd ~/test-repo
+git init
+git remote add origin https://github.com/crypthexon/test-repo.git
+
+
+
+###
+Two methods to start GitHub repo:
+1. Start your own repo from scratch
+2. Fork another user's repository
+ 
+
+###
 To download an R package: 
 
 install.packages("ggplot2", dependencies = c("Depends", "Imports", "Suggests")) 
+
+###
+To check all the function which are part of ggplot package:
+
+library(ggplot2)
+search()
+
