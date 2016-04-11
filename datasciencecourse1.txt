@@ -129,4 +129,53 @@ Example:
 library(ggplot2)
 search()
 
-###
+##Rmarkdown
+
+### <<----- Creates Secondary heading
+## <<----- Created primary heading
+* creates an unordered list
+
+## Git Repo setup: 
+
+## …or create a new repository on the command line
+
+echo "# Machine-Learning" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/crypthexon/Machine-Learning.git
+git push -u origin master
+
+## …or push an existing repository from the command line
+
+git remote add origin https://github.com/crypthexon/Machine-Learning.git
+git push -u origin master
+
+
+
+
+
+
+
+##Copy Write message:
+
+> install.packages("KernSmooth")
+Installing package into ‘C:/Users/sakash/Documents/R/win-library/3.2’
+(as ‘lib’ is unspecified)
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.2/KernSmooth_2.23-15.zip'
+Content type 'application/zip' length 105064 bytes (102 KB)
+downloaded 102 KB
+
+package ‘KernSmooth’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\sakash\AppData\Local\Temp\Rtmp2HKLeF\downloaded_packages
+> library(KernSmooth)
+KernSmooth 2.23 loaded
+Copyright M. P. Wand 1997-2009
+
+
+
+
+##RMarkdown basics:
+http://rmarkdown.rstudio.com/authoring_basics.html
